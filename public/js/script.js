@@ -16,7 +16,7 @@ weatherInfo.addEventListener('submit', (e) => {
     message2.textContent = " "
     message3.textContent = " "
 
-    fetch('http://localhost:3000/weather?search=' + location).then( (response) => {
+    fetch('/weather?search=' + location).then( (response) => {
         response.json().then((data) => {
            if(data.error){
              return  message1.textContent = data.error
