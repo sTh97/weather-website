@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">
+        <title>{{ pageName }}</title>
+        
+    </head>
+    <body>
+       <div class="main-content"> 
+        {{>header}}
+        <p>{{purpose}}</p>
+        <form action="">
+            <input type="text" id="inp" placeholder="Enter City Name">
+            <button>Search</button>
+        </form>
+        <div id="result">
+        <p id="msg1" class="msg"></p>
+        <p id="msg2" class="msg"></p>   
+        <p id="msg3" class="msg"></p> 
+        <p id="msg4" class="msg"></p>      
+        </div>
+       </div> 
+        {{>footer}}
+    </body>
+    <script src="/js/script.js"></script>
+</html>
