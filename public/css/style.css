@@ -1,9 +1,10 @@
 body {
-    color: #333333;
+    color: white;
     font-family: arial;
     max-width: 650px;
     margin: 0 auto;
     padding: 0 16px;
+    letter-spacing: 0.1cm;
 
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@ body {
 }
 
 footer {
-    color: #888888;
+    color: white;
     border-top: 1px solid #eeeeee;
     margin-top: 16px;
     padding: 16px 0;
@@ -24,6 +25,10 @@ footer {
 header {
     margin-top: 16px;
     margin-bottom: 48px;
+}
+
+header div a {
+    color: white;
 }
 
 h1 {
@@ -63,4 +68,5 @@ button{
     font-weight: bold;
     font-size: large;
     line-height: 30px;
+    color: black;
 }
