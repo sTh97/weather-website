@@ -65,9 +65,10 @@ app.get('/weather', (req, res) => {
             }
             console.log(location)
             console.log(forecastData)
+            console.log(Longitude)
             res.send({
-                forecastData,
                 location,
+                forecastData,
               // req.query.search
             })
           }) 
