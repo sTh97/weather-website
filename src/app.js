@@ -32,7 +32,7 @@ app.get('', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about',{
         pageName: "About",
-        title: "About page",
+        title: "",
         name: "Syed Taimoor Hasan"
     })
 })
@@ -40,7 +40,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         pageName: "Help",
-        title: "Help page.",
+        title: "",
         purpose: "This page will show help contents",
         name: "Syed Taimoor Hasan"
     })
