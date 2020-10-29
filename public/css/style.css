@@ -67,11 +67,12 @@ button{
 }
 
 #result{
-    background-color: #0A393F;
+    background-color: black;
     margin-top: 70px;
     padding: 10px;
     font-weight: bold;
     font-size: large;
+    opacity: 0.8;
 }
 
 .msg{
