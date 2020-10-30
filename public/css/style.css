@@ -45,9 +45,19 @@ header a {
 }
 
 nav.navbar-inverse{
-    background: rgba(0,0,0,0.5);
+    background: linear-gradient(#807EAE, #04061B);
     border: none;
  }
+
+.container .navbar-header a{
+    font-weight: bolder;
+    color: white;
+} 
+
+.container .collapse ul li a{
+    font-weight: bolder;
+    color: whitesmoke;
+}
 
 .btn{
     width: 100%;
