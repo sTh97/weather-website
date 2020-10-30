@@ -84,10 +84,6 @@ button{
 
 
 @media only screen and (max-width : 568px){
-    .main-content{
-        width: 453.333px;
-        height: 695.667px;
-    }
     #result{
         margin-top: 20px;
     }
