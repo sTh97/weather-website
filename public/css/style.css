@@ -1,13 +1,10 @@
 body {
     color: white;
     font-family: arial;
-    padding: 0;
-    margin: 0;
     letter-spacing: 0.1cm;
 
     display: flex;
     flex-direction: column;
-    min-height: 100hv;
 }
 
 .main-content {
@@ -29,6 +26,7 @@ header {
     text-decoration: none;
 }
 
+
 a {
     color: white;
     text-decoration: none;
@@ -44,7 +42,12 @@ header a {
     margin-right: 16px;
 }
 
-button{
+nav.navbar-inverse{
+    background: rgba(0,0,0,0.5);
+    border: none;
+ }
+
+.btn{
     width: 100%;
 }
 
@@ -62,13 +65,12 @@ input{
 button{
     cursor: pointer;
     border: 1px solid #888888;
-    padding: 8px;
     background-color: #888888;
 }
 
 #result{
-    background-color: black;
-    margin-top: 70px;
+    background-color:  rgba(0,0,0,0.5);
+    margin-top: 60px;
     padding: 10px;
     font-weight: bold;
     font-size: large;
@@ -82,5 +84,11 @@ button{
 
 
 @media only screen and (max-width : 568px){
-    
+    .main-content{
+        width: 453.333px;
+        height: 695.667px;
+    }
+    #result{
+        margin-top: 20px;
+    }
 }
