@@ -16,7 +16,6 @@ body {
     color: white;
     border-top: 1px solid #eeeeee;
     position: relative;
-    margin-top: 265px;
     padding: 16px 0;
 }
 
@@ -26,6 +25,9 @@ header {
     text-decoration: none;
 }
 
+.inner{
+    margin-top: 90px;
+}
 
 a {
     color: white;
